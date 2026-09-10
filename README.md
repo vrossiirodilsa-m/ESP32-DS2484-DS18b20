@@ -13,7 +13,7 @@ ESP32 + DS2484 + DS18B20 Driver (Pure ESP-IDF) NO ARDUINO
 * **Active Pull-up (APU):** Аппаратное ускорение фронтов линии 1-Wire через конфигурацию микросхемы DS2484 для стабильной работы на длинных линиях.
 
 ## 📁 Структура проекта
-
+```text
 ├── include/
 │   ├── ds18b20.h
 │   ├── ds2484.h
@@ -27,6 +27,7 @@ ESP32 + DS2484 + DS18B20 Driver (Pure ESP-IDF) NO ARDUINO
 ├── .gitignore
 ├── platformio.ini
 └── sdkconfig.esp32dev
+```
 
 ## 🔌 Подключение (Схема)
 
